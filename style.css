@@ -1,7 +1,7 @@
 body{
     background-color: #fff;
     background-image: url('make_it_ina_university_setting.jpeg');
-    background-size :cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     
@@ -69,7 +69,7 @@ background-size:100%;
 
 .text{
     margin-left: 53px;
-    color:#a3a5b4;
+    color: #a3a5b4;
 
 }
 
@@ -104,9 +104,9 @@ background-size:100%;
     background-color: #FCEBD1;
     width:417px;
     margin-left:-13px;
-    border-top-left-radius :0px;
+    border-top-left-radius: 0px;
     border-top-right-radius: 0px;
-    border-bottom-left-radius :3px;
+    border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
     
     
@@ -118,7 +118,7 @@ background-size:100%;
 }
 
 
-@media (max-width:680px) {
+@media (max-width:700px) {
     .wordz{
         width:290px;
         height: 460px;
