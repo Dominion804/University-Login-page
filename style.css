@@ -1,7 +1,10 @@
 body{
     background-color: #fff;
     background-image: url('make_it_ina_university_setting.jpeg');
-    background-size: 100%;
+    background-size :cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
 }
 
 .contain {
@@ -38,6 +41,7 @@ width: 300px;
 border: 1.5px solid black;
 margin-left: 30px;
 margin-right:23px;
+background-size:100%;
 
 }
 
@@ -58,9 +62,9 @@ margin-right:23px;
 }
 
 #button:hover{
-    background-color: rgb(45, 45, 230);
+    background-color: rgb(41, 41, 192);
     cursor:pointer;
-    border:0.5px rgba(255, 255, 255, 0.897) solid;
+    border:0.5px rgb(255, 255, 255) solid;
 }
 
 .text{
@@ -112,6 +116,60 @@ margin-right:23px;
    font-size:13px;
    color:rgb(80, 74, 74);
 }
+
+
+@media (max-width:680px) {
+    .wordz{
+        width:290px;
+        height: 460px;
+        margin-left:20%;
+        
+
+    }
+
+    .wordz > .textfield{
+        font-size: 12px;
+        width:200px;
+        margin-bottom:0px;
+
+    }
+
+    #Campus{
+        width:220px;
+        font-size: 12px;
+        height:44px;
+    }
+
+    #button{
+        width:220px;
+        margin-top:-70%;
+    }
+
+
+    #forgotpassword > p{
+        font-size:0.9rem;
+        position:absolute;
+        bottom:80px;
+        margin-left:70px;
+
+    }
+
+     h2{
+        font-size: 1.3rem;
+    }
+
+    .box2{
+        position:relative;
+        top: 3px;
+        width:312px;
+        height:15px;
+    }
+   
+    .box2 > p{
+        font-size:11.5px;
+    }
+}
+
 
 
 
