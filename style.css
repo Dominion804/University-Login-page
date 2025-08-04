@@ -1,7 +1,7 @@
 body{
     background-color: #fff;
     background-image: url('make_it_ina_university_setting.jpeg');
-    background-size: cover;
+    background-size :cover;
     background-repeat: no-repeat;
     background-position: center;
     
@@ -18,15 +18,12 @@ body{
 }
 
 .wordz{
+    
     font-family:  "Segoe UI",  "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 1rem;
     border: 0px solid black;
     width: 394px;
     height: 575px;
-    margin-left: 450px;
-    margin-top: 80px;
-    margin-bottom: 80px;
-    margin-right:450px;
     padding:25px 10px 10px 13px;
     background-color: rgba(0, 0,0, 0.6);
     border-radius: 10px;
@@ -42,6 +39,7 @@ border: 1.5px solid black;
 margin-left: 30px;
 margin-right:23px;
 background-size:100%;
+
 
 }
 
@@ -69,8 +67,17 @@ background-size:100%;
 
 .text{
     margin-left: 53px;
-    color: #a3a5b4;
+    color:#a3a5b4;
 
+}
+
+.main{
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    height:95vh;
 }
 
 
@@ -88,7 +95,8 @@ background-size:100%;
 #forgotpassword{
     color:rgb(86, 86, 245);
     text-decoration: none;
-    margin-left: 28%;
+    position: relative;
+    bottom:10px;
 
 }
 
@@ -100,14 +108,15 @@ background-size:100%;
     height:17px;
     border: 0px solid black;
     position:relative;
-    top:50px;
+    top:60px;
     background-color: #FCEBD1;
     width:417px;
     margin-left:-13px;
-    border-top-left-radius: 0px;
+    border-top-left-radius :0px;
     border-top-right-radius: 0px;
-    border-bottom-left-radius: 3px;
+    border-bottom-left-radius :3px;
     border-bottom-right-radius: 3px;
+   
     
     
 }
@@ -118,56 +127,60 @@ background-size:100%;
 }
 
 
-@media (max-width:700px) {
+@media (max-width:750px) {
+
     .wordz{
-        width:290px;
-        height: 460px;
-        margin-left:20%;
-        
-
+        font-size:10px;
+        width: 315px;
+    height: 425px;
+    
+   
+    
     }
 
-    .wordz > .textfield{
-        font-size: 12px;
-        width:200px;
-        margin-bottom:0px;
-
-    }
-
-    #Campus{
-        width:220px;
-        font-size: 12px;
-        height:44px;
+    .wordz>.textfield{
+        width:230px;
+        height: 15px;
     }
 
     #button{
-        width:220px;
-        margin-top:-70%;
+        width:250px;
+        height:40px;
+        padding:1px 1px;
     }
 
-
-    #forgotpassword > p{
-        font-size:0.9rem;
-        position:absolute;
-        bottom:80px;
-        margin-left:70px;
-
+    #Campus{
+        width:250px;
+        height:44px;
     }
 
-     h2{
-        font-size: 1.3rem;
+    #forgotpassword >p{
+        font-size:15px;
     }
 
     .box2{
+        width:338px;
         position:relative;
-        top: 3px;
-        width:312px;
-        height:15px;
+        top:1px;
+        height:17px;
+        
     }
+
+    .box2>p{
+        font-size:11px;
+    }
+
+    .textfield> option{
+        font-size:10px;
+        
+    padding: 5px;
+    }
+
+    .text-field>input{
+        font-size:10px;
+    }
+
    
-    .box2 > p{
-        font-size:11.5px;
-    }
 }
 
 
