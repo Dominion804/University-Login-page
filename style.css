@@ -131,26 +131,26 @@ background-size:100%;
 
     .wordz{
         font-size:10px;
-        width: 315px;
-    height: 425px;
+        width: 270px;
+    height: 400px;
     
    
     
     }
 
     .wordz>.textfield{
-        width:230px;
+        width:190px;
         height: 15px;
     }
 
     #button{
-        width:250px;
+        width:205px;
         height:40px;
         padding:1px 1px;
     }
 
     #Campus{
-        width:250px;
+        width: 210px;
         height:44px;
     }
 
